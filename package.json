@@ -1,0 +1,30 @@
+{
+  "name": "express-idempotency-key",
+  "version": "0.1.0",
+  "description": "Middleware de Express para que una peticion repetida con la misma Idempotency-Key no se ejecute dos veces",
+  "main": "src/index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "mocha --timeout 0 \"test/*.test.js\"",
+    "ejemplo": "node ejemplos/ejemplo.js",
+    "reintentos": "node scripts/reintentos.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "idempotency",
+    "idempotency-key",
+    "mongodb"
+  ],
+  "devDependencies": {
+    "express": "^4.22.3",
+    "mocha": "^9.2.2",
+    "mongodb": "^4.17.2",
+    "mongodb-memory-server": "^8.16.1",
+    "node-fetch": "^2.7.0"
+  }
+}
