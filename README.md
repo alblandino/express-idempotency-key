@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/Estado-Archivado-red?style=for-the-badge&logo=git&logoColor=white) ![Mantenimiento](https://img.shields.io/badge/Mantenimiento-Descontinuado-critical?style=for-the-badge)
+
 # express-idempotency-key
 
 Middleware de Express para que una peticion repetida con la misma `Idempotency-Key` no se ejecute dos veces.
